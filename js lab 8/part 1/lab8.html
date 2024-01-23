@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab 8</title>
+
+    <link rel="stylesheet" href="lab8.css" />
+  </head>
+
+
+ <div class="digital-watch">
+      <div id="days">Mon Tue Wed Thu Fri Sat Sun</div>
+      <div id="time"></div>
+      <div id="alarm-icon" onclick="showAlarmForm()">🕒</div>
+      <div id="alarm-form">
+        <form>
+          <label for="alarmTime">Set Alarm Time:</label>
+          <input type="time" id="alarmTime" required />
+          <button type="button" onclick="setAlarm()">Set Alarm</button>
+        </form>
+      </div>
+    </div>
+    
+    <script src="lab8.js"></script>
+  </body>
+</html>

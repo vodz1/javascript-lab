@@ -1,0 +1,76 @@
+/*part 2*/
+
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #c7d9e9;
+}
+
+div:nth-child(1) {
+  width: 800px;
+  height: 300px;
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+div:nth-child(1) > div {
+  width: 300px;
+  padding: 30px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+button {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  font: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+  border: none;
+  outline: none;
+}
+.control:focus {
+  outline: none;
+  background-color: pink;
+  border: none;
+}
+
+.prev {
+  margin-right: 100px;
+  position: absolute;
+  left: 340px;
+  top: 350px;
+  background-color: transparent;
+  border-radius: 60%;
+  padding: 15px;
+  font-size: 12px;
+}
+.next {
+  background-color: transparent;
+  position: relative;
+  right: 415px;
+  top: 67px;
+  border-radius: 60%;
+  padding: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.next:hover {
+  background-color: pink;
+}
+.prev:hover {
+  background-color: pink;
+}
